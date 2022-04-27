@@ -1,0 +1,23 @@
+.colums{
+	width: 100%;
+}
+
+.column {
+	width: 100%;
+}
+
+@media (min-width: 48em){
+	.column{
+		width: 50%;
+		float: left;
+	}
+	.colums {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+.uno{
+	color: black;
+}

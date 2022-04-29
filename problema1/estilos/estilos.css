@@ -8,7 +8,7 @@
 	border: yellow 2px solid;
 	background-color: white;
 	font-size: 2px solid;
-	padding: 5px;
+	padding: 10px;
 	margin: 10px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .comentario{
-	border-bottom: 2px solid green;
+	border-bottom: 3px solid green;
 	margin: 10px;
 	font-size: 10px;
 	color: white;

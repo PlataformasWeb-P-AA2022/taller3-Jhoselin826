@@ -9,11 +9,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <title>Ejemplo HTML5 y CSS3</title>
-    <script>
-      $( function() {
-      $( "#datepicker" ).datepicker();
-      } );
-    </script>
   </head>
 <body>
     <div class="columns">
@@ -25,8 +20,13 @@
                 <input id ="apellido" type="text" name="" placeholder="apellido">
                 <p> Fecha de Nacimiento </p>
                 <input type="text" id="datepicker">
-                <button type="submit">Generar Mensaje</button>
+                <br><br><button type="submit">Generar Mensaje</button>
             </div>
+        <script>
+            $( function() {
+            $( "#datepicker" ).datepicker();
+            } );
+        </script>
         </div>
         <div class="column dos">
             <p id="mensajeFinal"></p>
